@@ -4,7 +4,7 @@ let resumeData = {
     "role": "Frontend Web Developer",
     "linkedinId":"hari-wicaksono-08667767",
     "twitterid": "hariwicaksono_",
-    "roleDescription": "I like to learn about new technologies, caring for the birds or simply simply whatching my aquascape in my free time. #Purwokerto Frontend Developer",
+    "roleDescription": "I like to learn about new technologies, caring for the birds or simply whatching my aquascape tank in my free time. #Purwokerto Frontend Developer",
     "socialLinks":[
         {
           "id":"1",
