@@ -12,8 +12,11 @@ export default class Header extends Component {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mx-auto">
-      <Nav.Link>
+      
+    <li className="nav-item">
         <Link
+        href=""
+        className="nav-link"
                 activeClass="active"
                 to="home"
                 spy={true}
@@ -21,9 +24,11 @@ export default class Header extends Component {
                 duration={500}>
                 Home
         </Link>
-      </Nav.Link>
-      <Nav.Link>
+     </li>
+     <li className="nav-item">
         <Link
+        href=""
+        className="nav-link"
                 activeClass="active"
                 to="about"
                 spy={true}
@@ -31,38 +36,50 @@ export default class Header extends Component {
                 duration={500}>
                 About
         </Link>
-      </Nav.Link>
-      <Nav.Link><Link
+        </li>
+        <li className="nav-item">
+      <Link
+      href=""
+      className="nav-link"
                 activeClass="active"
                 to="resume"
                 spy={true}
                 smooth={true}
                 duration={500}>
                 Resume
-        </Link></Nav.Link>
-      <Nav.Link><Link
+        </Link>
+        </li>
+        <li className="nav-item">
+        <Link
+        href=""
+        className="nav-link"
                 activeClass="active"
                 to="portfolio"
                 spy={true}
                 smooth={true}
                 duration={500}>
                 Works
-        </Link></Nav.Link>
-      <Nav.Link><Link
+        </Link>
+        </li>
+        <li className="nav-item">
+        <Link
+        href=""
+        className="nav-link"
                 activeClass="active"
                 to="contact"
                 spy={true}
                 smooth={true}
                 duration={500}>
                 Contact
-        </Link></Nav.Link>
+        </Link>
+        </li>
     </Nav>
 
   </Navbar.Collapse>
 </Navbar>
 
 <Jumbotron className="text-center mb-0" style={{background: '#0C49AA url(assets/images/header-background.png) no-repeat top center'}}>
-  <h1 className="text-white mt-5">I am {resumeData.name}.</h1>
+  <h1 className="text-white mt-5">Hello, my name {resumeData.name}.</h1>
   <h3 className="text-white mb-3">I am a {resumeData.role}. {resumeData.roleDescription}
                </h3>
                <ul className="list-inline">
@@ -70,7 +87,7 @@ export default class Header extends Component {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
                               <li className="list-inline-item" key={item.id}>
-                                <a href={item.url} target="_blank" class="badge badge-light" rel="noopener noreferrer"><i className={item.className}></i></a>
+                                <a href={item.url} target="_blank" className="badge badge-light" rel="noopener noreferrer"><i className={item.className}></i></a>
                               </li>
                             )
                           }
@@ -78,9 +95,20 @@ export default class Header extends Component {
                   }
                </ul>
                <br/>
-  <p>
-    <a className="btn btn-dark" href="#about"><i className="fa fa-chevron-down" aria-hidden="true"></i></a>
-  </p>
+
+    
+    <Link
+        href=""
+        className="btn btn-dark"
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={500}>
+                <i className="fa fa-chevron-down" aria-hidden="true"></i>
+        </Link>
+  
+
 </Jumbotron>
 </section>
       </React.Fragment>

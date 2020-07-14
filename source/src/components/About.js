@@ -33,7 +33,7 @@ export default class About extends Component {
                     <br></br>
                     <span>{resumeData.website}</span>
        				</p>
-               <a href="https://docs.google.com/document/d/1KS0eqPI3DXRjibrlIP1PGJOMEp2hdGfgOBhWYuuAr_Q/edit?usp=sharing" className="btn btn-outline-primary"><i class="fa fa-file-text-o" aria-hidden="true"></i> See Resume</a>
+               <a href="https://docs.google.com/document/d/1KS0eqPI3DXRjibrlIP1PGJOMEp2hdGfgOBhWYuuAr_Q/edit?usp=sharing" className="btn btn-outline-primary"><i className="fa fa-file-text-o" aria-hidden="true"></i> See Resume</a>
             </Col>
          </Row>
          

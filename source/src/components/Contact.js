@@ -16,7 +16,7 @@ export default class ContactUs extends Component {
 
             <Col md="12">
            
-            <h3 className="text-light font-weight-light">E-mail: {resumeData.website}</h3>
+            <h4 className="text-light font-weight-light">E-mail:<br/>{resumeData.website}</h4>
             
             </Col>
           </Row>

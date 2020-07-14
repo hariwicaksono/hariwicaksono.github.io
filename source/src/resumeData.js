@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://hariwicaksono.github.io/",
     "name": "Hari Wicaksono",
-    "role": "Frontend Developer",
+    "role": "Frontend Web Developer",
     "linkedinId":"hari-wicaksono-08667767",
     "twitterid": "hariwicaksono_",
-    "roleDescription": "Purwokerto Frontend Developer & Web Developer, I like to learn about new technologies, caring for the birds or simply simply whatching my aquascape in my free time.",
+    "roleDescription": "I like to learn about new technologies, caring for the birds or simply simply whatching my aquascape in my free time. #Purwokerto Frontend Developer",
     "socialLinks":[
         {
           "id":"1",
@@ -30,6 +30,7 @@ let resumeData = {
     "website":"hariwicaksono87@gmail.com",
     "education":[
       {
+        "id":"1",
         "UniversityName":"STMIK AMIKOM Purwokerto",
         "specialization":"S-1 Teknik Informatika, IPK 3.04 ",
         "MonthOfPassing":"",
@@ -37,6 +38,7 @@ let resumeData = {
         "Achievements":""
       },
       {
+        "id":"2",
         "UniversityName":"SMA Muh.1 Purwokerto",
         "specialization":"",
         "MonthOfPassing":"",
@@ -46,6 +48,7 @@ let resumeData = {
     ],
     "work":[
       {
+        "id":"1",
         "CompanyName":"Universitas Amikom Purwokerto",
         "specialization":"Programmer ",
         "MonthOfLeaving":"",
@@ -53,6 +56,7 @@ let resumeData = {
         "Achievements":""
       },
       {
+        "id":"2",
         "CompanyName":"Universitas Harapan Bangsa",
         "specialization":"Administrator Jaringan/Programmer ",
         "MonthOfLeaving":"",
@@ -63,18 +67,23 @@ let resumeData = {
     "skillsDescription":"",
     "skills":[
       {
+        "id":"1",
         "skillname":"PHP,"
       },
       {
+        "id":"2",
         "skillname":"CodeIgniter,"
       },
       {
+        "id":"3",
         "skillname":"ReactJS,"
       },
       {
+        "id":"4",
         "skillname":"Linux System Administration,"
       },
       {
+        "id":"5",
         "skillname":"Computer Troubleshooting"
       }
     ],
