@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://hariwicaksono.github.io/",
     "name": "Hari Wicaksono",
-    "role": "Frontend Web Developer",
+    "role": "Full-Stack & Front-End Web Developer",
     "linkedinId":"hari-wicaksono-08667767",
     "twitterid": "hariwicaksono_",
-    "roleDescription": "I like to learn about new technologies, caring for the birds or simply whatching my aquascape tank in my free time. #Purwokerto Frontend Developer",
+    "roleDescription": "I like to learn about new technology, caring for the birds or simply whatching my aquascape tank in my free time. #Purwokerto Web Developer",
     "socialLinks":[
         {
           "id":"1",
@@ -25,7 +25,7 @@ let resumeData = {
           "className":"fa fa-twitter fa-2x text-info"
         }
       ],
-    "aboutme":"I am currently programmer at Amikom Purwokerto. I am a self taught Full Stack Web Developer. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"I am currently Programmer at Amikom Purwokerto. I am a self taught Full-Stack & Front-End Web Developer. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
     "address":"Purwokerto, Jawa Tengah, Indonesia",
     "website":"hariwicaksono87@gmail.com",
     "education":[
@@ -80,7 +80,7 @@ let resumeData = {
       },
       {
         "id":"4",
-        "skillname":"Linux System Administration,"
+        "skillname":"Linux Server Administration,"
       },
       {
         "id":"5",
